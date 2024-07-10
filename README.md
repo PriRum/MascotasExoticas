@@ -1,4 +1,5 @@
 # MascotasExoticas
+![_$](https://github.com/PriRum/MascotasExoticas/assets/173846086/42205d83-d744-4367-802e-3577293dcda2)
 
 Bienvenidos a esta página lleno de pequeños animalitos con sus propias características haciendolos ÚNICOS!
 
