@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Dosis:wght@200..800&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
 :root {
     --card-height: 300px;
     --card-width: calc(var(--card-height) / 1.5);
@@ -15,9 +18,26 @@ body {
 
 
 .ja{
-    padding: 0px 0px 60px 0;
+    font-size: 28px;
+    font-family:allura;
 }
 
+.titulo1{
+    font-family:allura;
+    font-size: 28px;
+}
+
+.explicacion1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 36px;
+    margin: 0 50px;
+    font-family:dosis;
+    color: #585252;
+    font-size: 22px;
+}
 
 .slider-frame {
 	width: 1280px;
