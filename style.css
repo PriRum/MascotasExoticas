@@ -20,10 +20,14 @@ body {
 
 
 .slider-frame {
-    
 	width: 1280px;
     height: auto;
 	overflow: hidden;
+}
+
+.slider-info{
+    padding: 0 40px;
+    position: absolute;
 }
 
 .slider-frame ul {
