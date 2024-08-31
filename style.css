@@ -34,7 +34,7 @@ a{
     cursor: pointer;
 }
 
-
+/*Ahora la info*/
 .titulos{
     font-family:allura;
     font-size: 28px;
@@ -78,7 +78,7 @@ a{
     font-size: 22px;
 }
 
-
+/*slider!*/
 .banner {
     position: relative;
 	width: auto;
@@ -145,7 +145,7 @@ a{
 	100% {margin-left: -700%;}
 }
 
-
+/*ANIMALITOSSS!!!*/
 .animales{
     display: flex;
     flex-direction: row;

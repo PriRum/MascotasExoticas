@@ -7,22 +7,31 @@
     <link rel="stylesheet" href="Sesion.css">
 </head>
 <body>
-    <div class="Registrarse">
-        <div class="cuadrado">
-            <h1>Registrarse<br></h1>
-            <br>
-            <input type="text" placeholder="Usuario">
-            <br>
-            <input type="password" placeholder="Contraseña">
-            <br><br>
-            <button>Confirmar</button>
-            <br>
-            <div class="abajo">
-                <a href="Bienvenido.html"><p>Volver?</p></a>
-                <a href=""><p>No tienes cuenta?</p></a>
-            </div>
-        </div>
+<div class="cuadrado">
+    <div>
+        <h1>Registrarse</h1>
+        <br>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name">
+        <span id="nameError" class="error"></span>
     </div>
+    <br>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <span id="emailError" class="error"></span>
+    </div>
+    <br><br>
+    <button type="submit" id="submitBtn" disabled>Enviar</button>
+    <br>
+    <div class="abajo">
+        <a href="Bienvenido.html"><p>Volver?</p></a>
+    </div>
+</div>
+
+
+
+
     <script src="Sesion.js"></script>
 </body>
 </html>
