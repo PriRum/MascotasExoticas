@@ -31,7 +31,7 @@ function validateForm() {
 }
 submitBtn.addEventListener("click", () => {
     alert("Gracias por registrarte!")
-    window.location.href = "../Bienvenido.html"});
+    window.location.href = "./index.html"});
 
 nameInput.addEventListener('input', validateForm);
 emailInput.addEventListener('input', validateForm);
